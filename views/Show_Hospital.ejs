@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hospital Details</title>
+    <link rel="stylesheet" type="text/css" href="/css/Show_Hospital.css" />
+    <style>
+      /* CSS styles (same as provided earlier) */
+      /* ... */
+    </style>
+    <script>
+      function showDetails(hospitalId) {
+        const detailsRow = document.getElementById(`details_${hospitalId}`);
+        detailsRow.classList.toggle("hidden-details");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Hospital Details</h1>
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="search-bar">
+      <!-- Search Bar -->
+      <input type="text" id="searchInput" placeholder="Search..." />
+    </div>
+
+    <div class="table-container">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Hospital Name</th>
+              <th>Email</th>
+              <th>Address</th>
+              <th>Phone No</th>
+              <th>City</th>
+              <th>Hospital Regis No</th>
+              <th>State</th>
+              <th>Emergency No</th>
+              <th>Pincode</th>
+              <th>Hospital Regis Date</th>
+              <th>No. Of Ambulance</th>
+              <th>Password</th>
+              <th>Button</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sample Hospital</td>
+              <td>sample@example.com</td>
+              <td>123 Street</td>
+              <td>1234567890</td>
+              <td>City</td>
+              <td>ABC123</td>
+              <td>State</td>
+              <td>9876543210</td>
+              <td>123456</td>
+              <td>2023-01-01</td>
+              <td>5</td>
+              <td>password</td>
+              <td>
+                <div class="dropdown-menu" aria-labelledby="statusDropdown">
+                  <a class="dropdown-item" href="#">Active</a>
+                  <a class="dropdown-item" href="#">Inactive</a>
+                </div>
+              </td>
+            </tr>
+            <!-- Additional hidden row for details -->
+            <tr id="details_hospital1" class="hidden-details">
+              <td colspan="13">
+                <!-- Display additional details here -->
+                <p><strong>More details here...</strong></p>
+                <!-- Add more details as needed -->
+              </td>
+            </tr>
+            <!-- Repeat similar structure for other hospitals -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/Signup.css" />
+    <!-- <link rel="stylesheet" href="./index.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-up-page-of-hospital">
+      <form action="/Signup" method="POST" enctype="multipart/form-data">
+        <div class="frame-parent">
+          <div>
+            <img src="/images/Group 472.png" alt="" />
+          </div>
+        </div>
+        <div class="frame">
+          <div class="sign-up-wrapper">
+            <div class="sign-up"><button>Sign Up</button></div>
+          </div>
+          <div class="ellipse-parent">
+            <div class="frame-child"></div>
+            <div class="terms-and-condition">
+              Terms and Condition privacy policy
+            </div>
+          </div>
+          <div class="frame1">
+            <img class="image-12-icon" alt="" src="/images/image 12.png" />
+
+            <div class="sign-up-parent">
+              <div class="sign-up">Sign Up</div>
+              <div class="login" id="loginText">/ Login</div>
+            </div>
+          </div>
+          <div class="frame2">
+            <div class="hospital-name-parent">
+              <div class="hospital-name">
+                <input name="Hospital_name" text" placeholder="Hospital Name" />
+              </div>
+              <div class="frame-item"></div>
+            </div>
+            <div class="email-id-parent">
+              <div class="terms-and-condition">
+                <input name="Email" type="text" placeholder="Email ID" />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+          </div>
+          <div class="frame3">
+            <div class="address-parent">
+              <div class="terms-and-condition">
+                <input name="Address" type="text" placeholder="Address" />
+              </div>
+
+              <!-- <address></address> -->
+              <div class="frame-inner"></div>
+            </div>
+            <div class="address-parent">
+              <div class="terms-and-condition">
+                <input name="Phone_no" type="text" placeholder="Phone Number" />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+          </div>
+          <div class="frame4">
+            <div class="address-parent">
+              <div class="terms-and-condition">
+                <input name="City" type="text" placeholder="City" />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+            <div class="address-parent">
+              <div class="terms-and-condition">
+                <input
+                  name="Hospital_Regis_no"
+                  type="text"
+                  placeholder="Hospital Registration Number"
+                />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+          </div>
+          <div class="frame5">
+            <div class="address-parent">
+              <div class="terms-and-condition">
+                <input name="State" type="text" placeholder="State" />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+            <div class="address-parent">
+              <div class="terms-and-condition">
+                <input
+                  name="Emergency_no"
+                  type="text"
+                  placeholder="Emergency-Ward Number"
+                />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+          </div>
+          <div class="frame6">
+            <div class="pincode-parent">
+              <div class="terms-and-condition">
+                <input name="Pincode" type="text" placeholder="Pincode" />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+            <div class="hospital-registration-date-parent">
+              <div class="terms-and-condition">
+                <input
+                  name="Hospital_Regis_Date"
+                  type="text"
+                  placeholder="Hospital Registration Date"
+                />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+            <div class="create-password-parent">
+              <div class="terms-and-condition">
+                <input
+                  name="Password"
+                  type="text"
+                  placeholder="Create Password"
+                />
+              </div>
+              <div class="frame-child8"></div>
+            </div>
+            <div class="frame-group">
+              <div class="address-parent">
+                <div class="terms-and-condition">
+                  Registration certificate Upload
+                </div>
+                <div class="frame-inner"></div>
+              </div>
+              <div class="choose-wrapper">
+                <div class="hospital-name">
+                  <button><input name="file" type="file" /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame7">
+            <div class="pincode-parent">
+              <div class="terms-and-condition">
+                <input
+                  name="No_Of_Abulance"
+                  type="text"
+                  placeholder="Number Of Ambulance available"
+                />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+            <div class="confirm-password-parent">
+              <div class="terms-and-condition">
+                <input name="" type="text" placeholder="Confirm Password" />
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          // Please sync "Login page of Hospital" to the project
+        });
+      }
+    </script>
+  </body>
+</html>

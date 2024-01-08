@@ -1,0 +1,307 @@
+.sicu-aura-logo-removebg-2-icon,
+.sicu-aura-logo-removebg-3-icon1 {
+  position: relative;
+  width: 270px;
+  height: 322px;
+  object-fit: cover;
+}
+.sicu-aura-logo-removebg-2-icon {
+  height: 63px;
+}
+.sicu-aura-logo-removebg-3-parent {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.safe {
+  color: var(--color-limegreen-100);
+}
+.feel-safe-everywhere-container {
+  /* position: relative;
+  font-weight: 600; */
+  width: 160px;
+  height: 50px;
+  top: 855px;
+  left: 912px;
+  border-radius: 15px;
+
+  background: #261e3b;
+}
+#btn {
+  width: 49px;
+  height: 27px;
+  top: 866px;
+  left: 968px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* color: #ffffff; */
+}
+#btn-1 {
+  text-decoration: none;
+  background-color: rgb(87, 35, 35);
+}
+.frame {
+  width: 342px;
+  height: 487px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 54px;
+}
+.safe-t-fast {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.frame-parent {
+  width: 541px;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-216xl) 99px var(--padding-216xl) 100px;
+  box-sizing: border-box;
+  gap: 30px;
+  background-image: url(./public/frame-472@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-12-icon {
+  position: undefined;
+  width: 171px;
+  height: 98px;
+  object-fit: cover;
+  margin-top: 73px;
+}
+.login {
+  position: relative;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.frame3,
+.login-wrapper,
+.sign-up-parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-parent {
+  width: 230px;
+  height: 45px;
+  flex-direction: row;
+  gap: 12px;
+}
+.frame3,
+.login-wrapper {
+  flex-direction: column;
+}
+.login-wrapper {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-200);
+  width: 160px;
+  height: 50px;
+  padding: var(--padding-2xs) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.frame3 {
+  width: 230px;
+  height: 805px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: 710px;
+}
+.welcome-to-sicu-aura {
+  position: relative;
+  font-weight: 500;
+}
+.email-id,
+.frame-child {
+  position: relative;
+}
+.frame-child {
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 335px;
+  height: 1px;
+}
+.email-id-parent {
+  height: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-silver);
+}
+.email-id-parent,
+.frame5,
+.frame6,
+.frame7,
+.password-parent {
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+}
+.frame6 {
+  height: 263px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 195px;
+}
+.frame5,
+.frame7,
+.password-parent {
+  justify-content: flex-start;
+}
+.password-parent {
+  height: 32px;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame5,
+.frame7 {
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-31xl);
+}
+.frame7 {
+  height: 114px;
+  font-size: var(--font-size-lg);
+  color: var(--color-silver);
+}
+.frame5 {
+  height: 427px;
+}
+.line-div {
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 335px;
+  height: 1px;
+}
+.hospital-name-parent {
+  width: 334px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.frame-group,
+.frame8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame8 {
+  width: 411px;
+  height: 134px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: 81px;
+  margin-top: -380px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+}
+.frame-group {
+  border-radius: 30px;
+  background-color: var(--color-white);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 514px;
+  height: 540px;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) 51px var(--padding-20xl) 52px;
+}
+.ellipse-div {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+  width: 4px;
+  height: 4px;
+}
+.ellipse-group {
+  width: 262px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+}
+.frame4 {
+  width: 514px;
+  height: 751px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 190px;
+  margin-top: -660px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+}
+.frame1,
+.frame2,
+.frame4,
+.login-page-of-hospital {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame2 {
+  width: 996px;
+  height: 896px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  position: undefined;
+  margin-top: 100px;
+}
+.frame1,
+.login-page-of-hospital {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame1 {
+  width: 617px;
+  height: 996px;
+  flex-shrink: 0;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-11xl);
+  color: #cacaca;
+}
+.login-page-of-hospital {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  gap: 90px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

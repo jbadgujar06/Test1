@@ -1,0 +1,331 @@
+.input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+.sicu-aura-logo-removebg-2-icon,
+.sicu-aura-logo-removebg-3-icon {
+  position: relative;
+  width: 270px;
+  height: 322px;
+  object-fit: cover;
+}
+.sicu-aura-logo-removebg-2-icon {
+  height: 63px;
+}
+.sicu-aura-logo-removebg-3-parent {
+  position: absolute;
+  top: 236px;
+  left: 136px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.t {
+  color: var(--color-limegreen);
+}
+.safe-t-fast {
+  position: absolute;
+  top: 753px;
+  left: calc(50% - 83.5px);
+  font-weight: 500;
+}
+.feel-safe-everywhere-container {
+  position: absolute;
+  top: 675px;
+  left: calc(50% - 170.5px);
+  font-size: 32px;
+  font-weight: 600;
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 541px;
+  height: 1024px;
+  background-image: url(./public/frame-472@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.sign-up {
+  position: relative;
+  font-weight: 600;
+}
+.sign-up-wrapper {
+  position: absolute;
+  top: 782px;
+  left: 281px;
+  border-radius: 15px;
+  background-color: var(--color-gray);
+  width: 160px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11px 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frame-child {
+  border-radius: 50%;
+  background-color: var(--color-silver);
+  width: 4px;
+  height: 4px;
+}
+.frame-child,
+.terms-and-condition {
+  position: relative;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 902px;
+  left: 230px;
+  width: 262px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+}
+.image-12-icon {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.login {
+  position: relative;
+  font-weight: 500;
+  color: #cdcdcd;
+  cursor: pointer;
+}
+.frame1,
+.sign-up-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-parent {
+  width: 230px;
+  height: 45px;
+  gap: var(--gap-3xs);
+}
+.frame1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 475px;
+  height: 98px;
+  overflow: hidden;
+  gap: 147px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray);
+}
+.hospital-name {
+  position: relative;
+  font-weight: 500;
+}
+.frame-item {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1px;
+}
+.hospital-name-parent {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame-inner {
+  position: relative;
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 321px;
+  height: 1px;
+}
+.email-id-parent {
+  width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  color: var(--color-silver);
+}
+.address-parent,
+.email-id-parent,
+.frame2 {
+  height: 32px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame2 {
+  position: absolute;
+  top: 172px;
+  left: 0;
+  width: 709px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-50xl);
+  color: var(--color-black);
+}
+.address-parent {
+  width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame3,
+.frame4 {
+  width: 709px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-50xl);
+}
+.frame3 {
+  position: absolute;
+  top: 254px;
+  left: 0;
+  height: 32px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame4 {
+  top: 336px;
+}
+.frame4,
+.frame5,
+.hospital-registration-date-parent,
+.pincode-parent {
+  position: absolute;
+  left: 0;
+  height: 32px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame5 {
+  top: 418px;
+  width: 709px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-50xl);
+}
+.hospital-registration-date-parent,
+.pincode-parent {
+  top: 0;
+  width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.hospital-registration-date-parent {
+  top: 82px;
+  left: 2px;
+}
+.frame-child8 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  height: 1px;
+}
+.create-password-parent {
+  position: absolute;
+  top: 114px;
+  left: 389px;
+  width: 320px;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.choose-wrapper,
+.create-password-parent,
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.choose-wrapper {
+  border-radius: 10px;
+  background-color: var(--color-gray);
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  padding: 9px 0;
+  box-sizing: border-box;
+  opacity: 0.8;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.frame-group {
+  position: absolute;
+  top: 0;
+  left: 389px;
+  width: 320px;
+  height: 92px;
+  align-items: flex-start;
+  gap: 20px;
+}
+.frame6 {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 709px;
+  height: 146px;
+  overflow: hidden;
+}
+.confirm-password-parent {
+  position: absolute;
+  top: 32px;
+  left: 387px;
+  width: 320px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame,
+.frame7 {
+  position: absolute;
+  top: 664px;
+  left: 2px;
+  width: 707px;
+  height: 64px;
+  overflow: hidden;
+}
+.frame {
+  top: 73px;
+  left: 631px;
+  width: 709px;
+  height: 923px;
+  font-size: var(--font-size-lg);
+  color: var(--color-silver);
+}
+.sign-up-page-of-hospital {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

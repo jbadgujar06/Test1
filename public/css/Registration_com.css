@@ -1,0 +1,335 @@
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 541px;
+  height: 1024px;
+  object-fit: cover;
+}
+.sicu-aura-logo-removebg-2-icon1,
+.sicu-aura-logo-removebg-3-icon2 {
+  position: absolute;
+  top: calc(50% + 129.5px);
+  left: calc(50% - 135px);
+  width: 270px;
+  height: 63px;
+  object-fit: cover;
+}
+.sicu-aura-logo-removebg-3-icon2 {
+  top: calc(50% - 192.5px);
+  height: 322px;
+}
+.sicu-aura-logo-removebg-2-parent {
+  position: absolute;
+  top: calc(50% - 276px);
+  left: calc(50% - 134.5px);
+  width: 270px;
+  height: 385px;
+}
+.t1 {
+  color: var(--color-limegreen-100);
+}
+.safe-t-fast1 {
+  position: absolute;
+  top: 753px;
+  left: calc(50% - 83.5px);
+  font-weight: 500;
+}
+.feel-safe-everywhere-container1 {
+  position: absolute;
+  top: 675px;
+  left: calc(50% - 170.5px);
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+}
+.rectangle-parent8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 541px;
+  height: 1024px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.login1,
+.sign-up2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.login1 {
+  left: 126px;
+  font-weight: 500;
+  color: var(--color-lightgray);
+}
+.sign-up-group {
+  position: absolute;
+  top: 100px;
+  left: 876px;
+  width: 230px;
+  height: 45px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-200);
+}
+.hospital-name1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.group-child26 {
+  position: absolute;
+  top: 31.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 321px;
+  height: 1px;
+}
+.hospital-name-group {
+  position: absolute;
+  top: 245px;
+  left: 631px;
+  width: 320px;
+  height: 32px;
+  color: var(--color-black);
+}
+.address1,
+.group-child27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-child27 {
+  top: 31.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 321px;
+  height: 1px;
+}
+.address-group,
+.city-group {
+  position: absolute;
+  top: 327px;
+  left: 631px;
+  width: 320px;
+  height: 32px;
+}
+.city-group {
+  top: 409px;
+}
+.hospital-registration-number-container,
+.pincode-group {
+  position: absolute;
+  top: 573px;
+  left: 631px;
+  width: 320px;
+  height: 32px;
+}
+.hospital-registration-number-container {
+  top: 409px;
+  left: 1020px;
+}
+.group-child33,
+.hospital-registration-date-container,
+.number-of-ambulance-available-group {
+  position: absolute;
+  top: 655px;
+  left: 633px;
+  width: 320px;
+  height: 32px;
+}
+.group-child33,
+.number-of-ambulance-available-group {
+  top: 737px;
+}
+.group-child33 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-200);
+  width: 160px;
+  height: 50px;
+}
+.sign-up3 {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 35px);
+  font-weight: 600;
+}
+.rectangle-parent9 {
+  position: absolute;
+  top: 855px;
+  left: 912px;
+  width: 160px;
+  height: 50px;
+  color: var(--color-white);
+}
+.create-password-group,
+.state-group {
+  position: absolute;
+  top: 687px;
+  left: 1020px;
+  width: 320px;
+  height: 32px;
+}
+.state-group {
+  top: 491px;
+  left: 631px;
+}
+.confirm-password-group,
+.email-id-group,
+.phone-number-group {
+  position: absolute;
+  top: 245px;
+  left: 1020px;
+  width: 320px;
+  height: 32px;
+}
+.confirm-password-group,
+.phone-number-group {
+  top: 769px;
+}
+.phone-number-group {
+  top: 327px;
+}
+.emergency-ward-number-container,
+.group-child41,
+.line-parent {
+  position: absolute;
+  top: 491px;
+  left: 1020px;
+  width: 320px;
+  height: 32px;
+}
+.group-child41,
+.line-parent {
+  top: 0;
+  left: 0;
+}
+.group-child41 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  width: 120px;
+  height: 40px;
+}
+.choose1 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 27px);
+  font-weight: 500;
+}
+.rectangle-parent10 {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 120px;
+  height: 40px;
+  opacity: 0.8;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.group-parent1 {
+  position: absolute;
+  top: 573px;
+  left: 1020px;
+  width: 320px;
+  height: 92px;
+}
+.ellipse-div,
+.terms-and-condition1 {
+  position: absolute;
+  top: 0;
+  left: 14px;
+}
+.ellipse-div {
+  top: 9px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-silver);
+  width: 4px;
+  height: 4px;
+}
+.terms-and-condition-privacy-po-parent {
+  position: absolute;
+  top: 975px;
+  left: 861px;
+  width: 262px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+}
+.image-12-icon1 {
+  position: absolute;
+  top: 73px;
+  left: 631px;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.registration-complete-child {
+  position: absolute;
+  top: calc(50% - 512px);
+  left: calc(50% - 720px);
+  background-color: rgba(238, 238, 238, 0.8);
+  backdrop-filter: blur(10px);
+  width: 1440px;
+  height: 1024px;
+}
+.group-child42 {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 360px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 720px;
+  height: 200px;
+}
+.your-registration-has {
+  /* position: absolute;
+  top: calc(50% + 22px);
+  left: calc(50% - 308px);
+  font-weight: 500; */
+  width: 615px;
+  height: 48px;
+  top: 534px;
+  left: 412px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.checkmark-icon {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 38px);
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.rectangle-parent11 {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 360px);
+  width: 720px;
+  height: 200px;
+  font-size: var(--font-size-13xl);
+  color: #505050;
+}
+.registration-complete {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-silver);
+  font-family: var(--font-poppins);
+}
